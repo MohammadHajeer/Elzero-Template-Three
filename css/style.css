@@ -817,6 +817,10 @@ article .container .articles-content .card:hover .foot i {
     top: 0;
     right: 0;
     transform: translate(10%,-50%);
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 767px) {
@@ -826,8 +830,9 @@ article .container .articles-content .card:hover .foot i {
     }
 }
 
-.testimonials .container .testimonials-content .testimonial .profile-pic img{
-    max-width: 100%;
+.testimonials .container .testimonials-content .testimonial .profile-pic i{
+    font-size: 50px;
+    color: var(--main-color);
 }
 
 .testimonials .container .testimonials-content .testimonial .rated {
